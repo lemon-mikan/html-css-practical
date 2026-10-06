@@ -168,6 +168,10 @@ header {
   margin: 20px 0;
 }
 
+.header-inner {
+  padding:0 10px
+}
+
 .header-inner a {
   font-size: 28px;
   padding: 0;
@@ -175,6 +179,7 @@ header {
 
 h1 {
   font-size: 28px;
+  margin: 0;
 }
 
 #menu {
@@ -182,18 +187,21 @@ h1 {
   height: 33px;
 }
 
+nav {
+  text-align: right;
+}
+
 #menu > li > a {
   font-size: 21px;
   width: 50%;
   width: 60px;
   height: 30px;
-  padding: 0 7px;
+  padding: 0;
 }
 
 /* メインビジュアル */
 .main-visual {
   width: 375px;
-  height: auto;
 }
 
 /* アバウト */
@@ -223,24 +231,49 @@ li {
 
 #about-inner {
   flex-direction: column;
+  width: 375px;
+  margin: 20px 0;
+}
+
+#about-photo {
+  width: 280px;
+  height: 280px;
+  margin: 0 37.5px;
 }
 
 #content, #self-introduction {
   width: 100%;
 }
 
+#self-introduction {
+  width: 355px;
+  margin: 0;
+}
+
 /* ワーク */
+.works-inner {
+  width: 375px;
+  margin: 0;
+}
+
 .works-inner-box {
-  width: 100%;
+  width: 355px;
+  height: 362.75px;
+  padding: 0 0 40px;
+}
+
+.works-inner-box > p {
+  width: 355px;
 }
 
 img {
   width: 355px;
 }
 
+/* フッター */
 p {
-  width: 355px;
-  height: 52px;
+  width: 375px;
+  height: 46px;
   text-align: center;
 }
 
